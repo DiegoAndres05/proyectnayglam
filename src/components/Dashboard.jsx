@@ -24,9 +24,9 @@ function Dashboard() {
 
   return (
     <div className="flex bg-[#f7f4ff] min-h-screen font-sans">
-      <Sidebar active="dashboard" />
+  {/* Sidebar eliminado, ahora solo se renderiza desde App.jsx */}
       {/* Main */}
-      <main className="main flex-1 ml-[250px] p-10 min-h-screen box-border">
+  <main className="main flex-1 p-10 min-h-screen box-border">
         <header className="flex justify-between items-center mb-8">
           <input
             type="text"

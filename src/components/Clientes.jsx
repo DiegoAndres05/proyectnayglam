@@ -62,9 +62,9 @@ function Clientes() {
 
   return (
     <div className="flex bg-[#f6f3ff] min-h-screen font-sans">
-      <Sidebar active="clientes" />
+  {/* Sidebar eliminado, ahora solo se renderiza desde App.jsx */}
       {/* Main */}
-      <main className="main flex-1 ml-[230px] p-8 min-h-screen box-border">
+  <main className="main flex-1 p-8 min-h-screen box-border">
         <header className="flex justify-between items-center mb-8">
           <input
             type="text"
